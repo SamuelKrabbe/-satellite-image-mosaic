@@ -33,7 +33,7 @@ def verify_func(xse, yse, xid, yid, xse2, yse2, xid2, yid2):
                 xid = xid
                 yid = yid2
 
-            return (xse, yse), (xid, yid)
+            return [(xse, yse), (xid, yid)]
 
         else:
             return 0

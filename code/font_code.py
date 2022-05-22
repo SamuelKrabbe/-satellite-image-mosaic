@@ -20,7 +20,7 @@ while True:
     except:
         break
 
-ret_ad.insert(0, [retang])
+ret_ad.insert(0, retang)
 
 print(contador)
 
